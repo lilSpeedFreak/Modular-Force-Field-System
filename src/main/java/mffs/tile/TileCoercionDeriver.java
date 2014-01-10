@@ -29,12 +29,12 @@ public class TileCoercionDeriver extends TileMFFSElectrical
 	/**
 	 * The amount of KiloWatts this machine uses.
 	 */
-	private static final int DEFAULT_WATTAGE = 50000;
+	private static final int DEFAULT_WATTAGE = 500;
 	public static final int FUEL_PROCESS_TIME = 10 * 20;
-	public static final int MULTIPLE_PRODUCTION = 4;
+	public static final int MULTIPLE_PRODUCTION = 10;
 	/** Ration from UE to Fortron. Multiply J by this value to convert to Fortron. */
 	public static final float UE_FORTRON_RATIO = 0.0001f;
-	public static final int ENERGY_LOSS = 1;
+	public static final int ENERGY_LOSS = 0;
 
 	public static final int SLOT_FREQUENCY = 0;
 	public static final int SLOT_BATTERY = 1;
